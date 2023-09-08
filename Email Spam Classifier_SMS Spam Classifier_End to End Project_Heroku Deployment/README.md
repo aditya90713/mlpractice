@@ -3,22 +3,22 @@
 This Email Spam Classifier is a machine learning project that utilizes Natural Language Processing (NLP) techniques to classify emails as either spam or not spam (ham). The model is deployed on Heroku, making it accessible to users for real-time email spam detection.
 
 ## Features
-### Email Spam Detection: The classifier uses a trained machine learning model to analyze the content of emails and determine whether they are spam or not.
+1. Email Spam Detection: The classifier uses a trained machine learning model to analyze the content of emails and determine whether they are spam or not.
 
-### NLP Techniques: Natural Language Processing techniques are employed to process and analyze the text content of emails, extracting meaningful features for classification.
+2. NLP Techniques: Natural Language Processing techniques are employed to process and analyze the text content of emails, extracting meaningful features for classification.
 
-### User-Friendly Interface: The deployed application provides a user-friendly interface where users can input an email message and receive an instant classification result.
+3. User-Friendly Interface: The deployed application provides a user-friendly interface where users can input an email message and receive an instant classification result.
 
-### Real-Time Scoring: Emails are scored in real-time, ensuring that users receive immediate feedback on the spam status of their messages.
+4. Real-Time Scoring: Emails are scored in real-time, ensuring that users receive immediate feedback on the spam status of their messages.
 
 ## How it Works
-###vInput Email: Users provide an email message that they want to classify as spam or not spam.
+1. Input Email: Users provide an email message that they want to classify as spam or not spam.
 
-### Text Processing: The input email text is preprocessed using NLP techniques, which includes tokenization, removing stop words, and vectorization.
+2. Text Processing: The input email text is preprocessed using NLP techniques, which includes tokenization, removing stop words, and vectorization.
 
-### Classification: The preprocessed email is passed through a trained machine learning model that has learned to classify emails as spam or not spam based on a labeled dataset.
+3. Classification: The preprocessed email is passed through a trained machine learning model that has learned to classify emails as spam or not spam based on a labeled dataset.
 
-### Result: The model generates a classification result, and the user is presented with the outcome, indicating whether the email is classified as spam or not.
+4. Result: The model generates a classification result, and the user is presented with the outcome, indicating whether the email is classified as spam or not.
 
 ## Technologies Used
 1. Python: The core programming language for building the machine learning model and web application.
